@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sha Interior</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    </head>
+
+    <body>
+        
+
+
+       
+       <div id="banner">
+                <div id="sidenav">
+        <nav>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="services.html">Service</a></li>
+                   <li><a href="aboutus.html">About Us</a></li>
+                     <li><a href="Portfolio.html">Gallery</a></li>
+                     <li><a href="testimonials.html">Testimonial</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </nav>
+           </div>
+           <div id="manuBtn">
+               <img src="img/menu.png" id="menu">
+           </div>
+<script>
+    var manuBtn = document.getElementById("manuBtn")
+     var sidenav = document.getElementById("sidenav")
+      var menu = document.getElementById("menu")
+
+      sidenav.style.left ="-300px";
+
+      manuBtn.onclick = function(){
+if(sidenav.style.left == "-300px"){
+    sidenav.style.left ="0";
+    menu.src ="img/close.png";
+}
+else{
+    sidenav.style.left = "-300px";
+     menu.src ="img/menu.png";
+
+}
+}
+</script>
+       
+           <div class="content">
+               <h1>Sha Interior Design</h1>
+               <h4>Interior Design in Ranchi</h4>
+               <h4><marquee>Open today untill 8:00 PM</marquee></h4>
+
+           </div>
+       </div>
+              
+ 
+       <!--services-->
+        <section id="services">
+            <div class="title-text">
+            <h1>Services</h1>
+        </div>
+
+
+
+<div class="card-container">
+  <div class="float-layout">
+    <div class="card-image">
+    
+<div class="w3-content" style="max-width:1800px">
+ 
+
+  <img class="mySlides" src="img/c.jpg" style="width:100%">
+  <img class="mySlides" src="img/d.jpg" style="width:100%">
+
+  <img class="mySlides" src="img/a.jpg" style="width:100%">
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+      <div class="card">
+        <div class="card-title">Kitchen</div>
+        <div class="card-desc">
+          Modern kitchen design is sometimes broadly categorized as any style that's less traditional and more contemporary—but in fact, all modern design has specific roots in terms of its time period, style and inspirations. Modern design started around World War I and generally featured flat surfaces, geometric forms, and little or no ornamentation or adornments. Modern kitchen cabinets, for example, are often defined by a sleek, angular and simple design, featuring little or no hardware, flush doors and flat surfaces. In the current era, modern kitchen design is part of a larger trend which has embraced midcentury modern design and furniture, which introduced bold angles and curves to the design landscape. Midcentury modern design—generally recognized as originating in the Nordic countries in the mid 20th century—has now been incorporated into many modern kitchen designs.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dard-container">
+  <div class="tloat-layout">
+    <div class="dard-image">
+<div class="w3-content" style="max-width:1800px">
+ 
+
+  <img class="mySlides2" src="img/o.jpg" style="width:100%">
+
+
+  <img class="mySlides2" src="img/m.jpg" style="width:100%">
+   <img class="mySlides2" src="img/n.jpg" style="width:100%">
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+      <div class="dard">
+        <div class="dard-title">Living room</div>
+        <div class="dard-desc">
+          
+A living room is a room in a home. The living room in a home is shared by the people living in the home. In the living room they talk with each other and their guests and do other things such as reading or watching television. The furniture can include a couch, chairs, tables, lamps, a television, curtains and pictures. People may have started using the compound word, living room, in the early twentieth century.
+In Western architecture, a living room, also called a lounge room (Australian English[1]), lounge (British English[2]), sitting room (British English[3]), or drawing room, is a room for relaxing and socializing in a residential house or apartment. Such a room is sometimes called a front room when it is near the main entrance at the front of the house. In large, formal homes, a sitting room is often a small private living area adjacent to a bedroom, such as the Queen's Sitting Room and the Lincoln Sitting Room of the White House.[4] After World War I the living room was the least used space in the house, and was referred to as the death room
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+
+
+
+    
+<!-- footer-->
+<footer>
+    <div class="footer-info">
+        <div class="footer-width about">
+            <h3>About</h3>
+            <p>AC Repair & Services Washing Machine Repair & Services-LG Washing Machine Repair & Services Refrigerator Repair & Services Washing Machine Repair & Services-IFB Geyser Repair & Services Washing Machine Repair</p>
+            <div class="social-link">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-youtube-play"></i>
+</div>
+        </div>
+        <div class="footer-width link">
+           <h3>Quick Link</h3> 
+           <ul>
+            <li><a href="index.html">Home</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="aboutus.html">About Us</a></li>
+               <li><a href="gallery.html">Gallery</a></li>
+               <li><a href="testimonials.html">Testimonials</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+        <div class="footer-width contact">
+            <h3>Contact</h3>
+            <ul>
+                <li>
+                    <span>
+                        <i class="fas fa-map-marker"></i>
+</span>
+                    <p>
+Iqra Masjid Complex, Main Road
+Ranchi, Jharkhand 834001
+India
+                        
+                    </p>
+                </li>
+                <li>
+                    <span>
+                        <i class="fa fa-paper-plane"></i>
+                    </span>
+                    <p>mdsulemannadeem.1234@gmail.com</p>
+                </li>
+                <li>
+                    <span>
+                        <i class="fa fa-phone"></i>
+                    </span>
+                    <p>Phone:9162712619</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    </body>  
+    </html>
